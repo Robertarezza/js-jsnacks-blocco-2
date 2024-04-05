@@ -7,7 +7,16 @@
  */
 function wordLongth(word, msword) {
    
-    for(let i = 0; i > wordLongth.length; i++ ){
-        
+    let result = ";"
+    if (word.length > msword.length){
+        //console.log(word);
+        result = word
+    }else if (word.length < msword.length) {
+        //console.log(msword);
+        result = msword;
+    }else {
+        //console.log(word, msword);
+        result = word + msword;
     }
+   return result
 }
