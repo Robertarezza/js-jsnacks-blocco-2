@@ -4,3 +4,7 @@ Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lun
 
 1. chiedere due parole
 2. crea una funzione per verificare la lunghezza delle parole
+    se le parole sono lunghe uguali
+        stampa entrambe
+    altrimenti 
+        stampa la più lunga

@@ -1,4 +1,5 @@
 
+//2
 /**
  * Description: la funzione deve controllare se due parole hanno la stessa lunghezza
  * @param {stringa} word

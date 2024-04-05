@@ -7,6 +7,8 @@
   let secondWord = prompt ("dimmi un'altra parola");
   //console.log(secondWord);
 
-  
+  // controllo richiamando la funzione
  const printWord = wordLongth (word1, secondWord)
+
+ //stampa
  console.log(printWord);
