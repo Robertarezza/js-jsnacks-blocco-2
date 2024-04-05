@@ -8,16 +8,15 @@ function indexElem(array, elem) {
     
    
     for(let i = 0; i < array.length; i++){
+        
         if(array[i] === elem){
               //console.log(array[i] );
              return i;
-        }else {
-             return -1
-          }
+        }
             
     }
     
-
+    return -1
   
 }
 

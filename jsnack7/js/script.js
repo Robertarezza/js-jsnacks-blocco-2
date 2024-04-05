@@ -5,9 +5,10 @@ const myArray = ["pane","latte","biscotti","crostata"];
 //console.log(myArray);
 
 
-//console.log(removElem(myArray));
 
+console.log(removeElemTesta(myArray));
 
-console.log(removElemCoda(myArray));
+//newArrey.push(removElem(myArray));
+//console.log(newArrey);
 
 // Array.length

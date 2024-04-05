@@ -7,3 +7,10 @@ scrivere una funzione trovaIndice() che, dati un array e un elemento in input, r
 3. crea una funzione trova indice degli elementi all'interno dell'array e restutisce la posizione in cui si trova l'elemento.
     se l'elemento non è presente nell'array
         stampo -1
+
+
+per tutti gli elementi dell'array 
+    se l'elemnto corrente è uguale all'elemnto utente
+        ritorna i
+    
+return -1

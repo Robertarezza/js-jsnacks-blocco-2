@@ -3,15 +3,13 @@
  * @param {array} params
  * @returns {array}
  */
-function removElemCoda(array) {
+function removeElemTesta(array) {
     const newArrey = [];
    
-    for(let i = 0; i < array.length - 1; i++){
+    for(let i = 1; i < array.length; i++){
         //console.log(array[i]);
         newArrey.push(array[i]);
     }
 
     return newArrey;
 }
-
-
