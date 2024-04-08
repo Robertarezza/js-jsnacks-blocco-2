@@ -6,8 +6,10 @@ const inputBtn = document.getElementById("add-btn");
 let addElem = document.getElementById("new-elem")
 
 
-inputBtn.addEventListener("click", function (){
+inputBtn.addEventListener("click", function () {
+
 const arrayA = ["pippo","pluto","paperino"];
+document.getElementById("list").innerHTML= arrayA
 
 let newElemArray = addElem.value;
 //console.log(arrayA);
@@ -23,6 +25,8 @@ let newElemArray = addElem.value;
 
 // arrayA.length
 //console.log(arrayB);
+
+
 const arrayB = newElem(newElemArray, arrayA);
 console.log(arrayB);
 

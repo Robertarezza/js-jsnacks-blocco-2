@@ -3,4 +3,4 @@
 
 const array = ["mamma","ciccio","bionda","vita"]
 
-printArray(array) 
+console.log(stampa(array, "/"));  

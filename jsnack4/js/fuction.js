@@ -1,7 +1,7 @@
 /**
  * Description: la funzione deve trovare l'indice degli elementi in un array
  * @param {array} params
- * @param {elem} params
+ * @param {string | number} params
  * @returns {number} //posizione dell'elemento oppure -1
  */
 function indexElem(array, elem) {
